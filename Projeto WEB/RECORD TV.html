@@ -1,0 +1,102 @@
+<html>
+
+    <head>
+        <title> Revista Antenada </title>
+        <meta charset="utf-8"/>
+        <link rel="stylesheet" type="text/css" href="css/estilo.css"/>
+        <link rel="stylesheet" type="text/css" href="css/estilo_menu.css"/>
+        <meta name="viewport" content="width=device-width, intitial-scale=1"/>
+    </head>
+
+    <body>
+        <div id="header">
+            <div id="logo_bar"> Antenada </span> </div>
+            <input type="checkbox" id="btt_menu"/>
+            <label for="btt_menu">&#9776;</label>
+            
+            <div id="nav">
+                <ul>
+                    <li class="dropdown"> 
+                        <a href="javascript:" class="drop_btt">Home</a> 
+                        <div class="dropdown_content">
+                            <a href="index.html">Globo</a>
+                            <a href="Record TV.html">Record TV</a>
+                            <a href="SBT.html">SBT</a>
+
+                        </div>
+                    </li>
+                    
+                </ul>
+            </div>
+        </div>
+
+        <div class="container">
+                
+                <div class="wall">
+                    <div class="n_text"> 1 / 2 </div>
+                    <img src="img/Record Tv.jpeg">
+                </div>
+
+                <div class="wall">
+                    <div class="n_text"> 2 / 2 </div>
+                    <img src="img/logo record.jpg">
+                </div>
+
+                <a class="prev" onclick="plus_walls(-1)"> &#10094; </a>
+            <a class="next" onclick="plus_walls(1)"> &#10095; </a>
+        </div>
+
+        <div class="dots_box">
+            <span class="dot" onclick="current_walls(1)" ></span>
+            <span class="dot" onclick="current_walls(2)" ></span>
+          </div>
+
+          <script src="js/carrossel.js"></script>
+
+
+    <div id="content">
+        <div class="box">
+            <h2>História da Record TV</h2>
+
+            <p>
+                Record TV é uma rede de televisão comercial aberta brasileira.
+                Sua estação geradora foi inaugurada na cidade de São Paulo em 
+                27 de setembro de 1953 pelo empresário e comunicador Paulo Machado
+                de Carvalho, e sua criação remonta à chegada da televisão no Brasil, 
+                quando ele se interessou pelo novo meio de comunicação e quis ampliar 
+                seu conglomerado midiático (que consistia em diversas emissoras de rádio).
+                Paulo, então, entrou com um pedido para operar uma emissora de televisão na 
+                capital paulista, sendo concedido em novembro de 1950. As obras para 
+                colocá-la no ar duraram três anos. Foi a quarta emissora inaugurada no Brasil 
+                após a TV Tupi São Paulo (1950), a TV Tupi Rio de Janeiro (1951) e a TV Paulista (1952).
+            </p>
+
+            <p>
+                A Record rapidamente tornou-se popular, se especializando na produção 
+                de programas musicais, chegando a ser líder de audiência na década de 1960 
+                com os históricos festivais de música popular e da Jovem Guarda. 
+                Em meados da década de 1970, metade das ações do canal foi vendida 
+                ao empresário e apresentador Silvio Santos. Posteriormente, a emissora 
+                atravessou uma crise financeira que culminou em um estado de pré-falência 
+                no final da década de 1980.
+            </p>
+
+            <p>
+                A formação da rede nacional começou no início da década de 1990 
+                após a emissora ser adquirida por Edir Macedo, fundador e líder da 
+                Igreja Universal do Reino de Deus. Desde então o canal passou a contar
+                com grandes investimentos em uma fase de reconstrução que a consolidou, 
+                em 2007, como a segunda maior rede de televisão do Brasil em audiência 
+                e faturamento, posto que ocupou até 2015, quando foi ultrapassada pelo SBT.
+                A partir de 2012, ambas as emissoras passaram a disputar mais intensamente 
+                décimos pontuais e a revezar-se no ranking do IBOPE.
+            </p>
+        </div>
+    </div>
+    
+    <div id="footer">
+        <p>Desenvolvido por Julia Nogueira dos Santos - 2021</p>
+    </div>
+
+    </body>
+</html>

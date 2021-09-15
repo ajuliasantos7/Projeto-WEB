@@ -1,0 +1,113 @@
+body{
+    background-color: white;
+    padding: 0px;
+    margin: 0px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+img{
+    width: 100%;
+}
+
+.prev, .next{
+    cursor: pointer;
+    color: black;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.next{
+    right: 0;
+}
+
+#menu{
+    float: left;
+}
+
+#menu li a{
+    display: block;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+}
+
+#menu li a:hover{
+    transition: 0.5s;
+    color: white;
+    background-color:black;
+}
+
+#main{
+    margin: auto;
+    font-size: 20px;
+    width: 50%;
+    text-align: justify;
+    background-color:white;
+}
+
+#header{
+    padding: 30px;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+#header h1{
+    text-transform: uppercase;
+    border-bottom: 1pz solid white;
+}
+
+#banner img{
+    width: 100%;
+}
+
+#content{
+    display: flex;
+}
+
+.box{
+    padding: 20px;
+}
+
+.box h2{
+    border-bottom: 1px solid black;
+}
+
+#footer{
+    text-align: center;
+    background-color: black;
+    color:white;
+    padding: 10px;
+}
+
+@media screen and (max-width: 1440px){
+    #main{
+        width: 80%;
+        font-size: 17px;
+    }
+    
+}
+
+@media screen and (max-width: 768){
+    body{
+        background-image: none;
+    }
+}
+
+#main{
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    font-size: 14px;
+}
+
+#content{
+    display: block;
+}
